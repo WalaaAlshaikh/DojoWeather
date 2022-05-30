@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!---------------- Nav Bar ----------------->
+     <div class="vavBar">
+        <h1 class="nav-title">Dojo Weather</h1>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#" onclick="alert('Loading weather report...')">Dammam</a></li>
+            <li class="link"><a href="#" onclick="alert('Loading weather report...')">Riyadh</a></li>
+            <li class="link"><a href="#" onclick="alert('Loading weather report...')">Jeddah</a></li>
+          
+        </ul>
+    </div>
+
+    <!----------------main container----------------->
+
+    <div class="mainContainer">
+
+        <div class="up">
+            <h1 id="ahsaa">Ahsaa</h1>
+            <div class="temp">
+                <p id="showtemp"> show temprature in</p>
+                <select id="selectTemp" >
+                    <option class="tem" value="value1">°C</option>
+                    <option class="tem" value="value2" >°F</option>
+                </select>
+
+               
+
+            </div>
+
+        </div>
+        <hr>
+
+        <div class="days">
+            <div class="day">
+                <h2>Today</h2>
+                <img class="weatherImage" src="assets/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="tempreture">
+                    <p class="high">35 </p> 
+                    <p class="low">20 </p>
+
+                </div>
+
+            </div>
+
+            <div class="day">
+                <h2>Tommorow</h2>
+                <img class="weatherImage" src="assets/some_rain.png" alt="">
+                <p>some rain</p>
+                <div class="tempreture">
+                    <p class="high">33 </p> 
+                    <p class="low">19</p>
+
+                </div>
+
+            </div>
+
+            <div class="day">
+                <h2>Monday</h2>
+                <img class="weatherImage" src="assets/some_clouds.png" alt="">
+                <p>some clouds</p>
+                <div class="tempreture">
+                    <p class="high">36 </p> 
+                    <p class="low">29 </p>
+
+                </div>
+
+            </div>
+            
+            <div class="day">
+                <h2>Tuesday</h2>
+                <img class="weatherImage" src="assets/some_sun.png" alt="">
+                <p>some sun</p>
+                <div class="tempreture">
+                    <p class="high">39 </p>
+                    <p class="low">30 </p>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        <div class="cookie">
+
+            <img id="cake" src="assets/cookie.png" alt="cookie image">
+            <div class="cookies">
+                <h4>Stop! Cookie time</h4>
+                <p>We use coocies (sadly not the edicle ones) to personalize content and ads, to provide social media feature and to analyse our traffic. <a href="#">Read more...</a></p>
+
+                
+            </div>
+            <button id="accept" onclick="dismiss()"> I accept</button>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

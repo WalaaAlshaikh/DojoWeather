@@ -1,0 +1,135 @@
+.vavBar {
+
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.nav-title {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nav-links {
+    font-size: 20px;
+
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.link a {
+    margin: 20px;
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainContainer {
+
+    text-align: center;
+
+}
+#ahsaa{
+    margin-right:340px;
+}
+
+.up {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+ 
+
+
+
+}
+hr{
+    width: 1000px;
+    border-top: 3px solid rgb(70, 70, 70)
+}
+
+.temp {
+    display: inline-flex;
+}
+
+#showtemp {
+    margin-right: 10px;
+}
+
+.days {
+    display: inline-flex;
+
+}
+
+.day {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.cookie {
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 10px;
+
+    padding: 10px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#accept {
+    background-color: rgb(95, 43, 43);
+    padding: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 45px;
+    margin-right: 20px;
+    justify-items: center;
+
+
+
+}
+
+#cake {
+
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.weatherImage {
+    width: 200px;
+}
+
+.cookies {
+    width: 600px;
+    padding: 10px;
+    text-align: left;
+}
+p{
+    font-size: 15px;
+
+}
+.low{
+    color: rgb(89, 89, 153);
+    font-weight: bold;
+}
+.high{
+    color: brown;
+    font-weight: bold;
+}
